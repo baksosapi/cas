@@ -4,7 +4,7 @@
 # while sleep 9m; do echo -e '\n=====[ Gradle build is still running ]====='; done &
 
 echo "Running MongoDb docker image..."
-docker run -d -p 27017:27017 --name="mongodb-server" mongo:4.0
+docker run -d -p 27017:27017 --name="mongodb-server" mongo:4.0-xenial
 
 docker ps | grep "mongodb-server"
 retVal=$?
