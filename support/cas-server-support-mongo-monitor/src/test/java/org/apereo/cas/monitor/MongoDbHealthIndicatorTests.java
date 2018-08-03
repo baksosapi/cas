@@ -73,7 +73,7 @@ import static org.junit.Assert.*;
 })
 @TestPropertySource(properties = {
     "cas.monitor.mongo.host=localhost",
-    "cas.monitor.mongo.port=8081",
+    "cas.monitor.mongo.port=27017",
     "cas.monitor.mongo.databaseName=monitor",
     "cas.monitor.mongo.dropCollection=true"
 })

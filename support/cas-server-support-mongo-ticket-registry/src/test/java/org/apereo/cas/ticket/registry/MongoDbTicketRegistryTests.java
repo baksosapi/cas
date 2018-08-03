@@ -73,7 +73,7 @@ import java.util.Collection;
 @TestPropertySource(properties = {
     "cas.ticket.registry.mongo.databaseName=ticket-registry",
     "cas.ticket.registry.mongo.host=localhost",
-    "cas.ticket.registry.mongo.port=8081",
+    "cas.ticket.registry.mongo.port=27017",
     "cas.ticket.registry.mongo.dropCollection=true"
 })
 

@@ -42,7 +42,7 @@ import static org.junit.Assert.*;
         CasCoreWebConfiguration.class})
 @TestPropertySource(properties = {
     "cas.audit.mongo.host=localhost",
-    "cas.audit.mongo.port=8081",
+    "cas.audit.mongo.port=27017",
     "cas.audit.mongo.dropCollection=true",
     "cas.audit.mongo.asynchronous=false",
     "cas.audit.mongo.databaseName=audit"

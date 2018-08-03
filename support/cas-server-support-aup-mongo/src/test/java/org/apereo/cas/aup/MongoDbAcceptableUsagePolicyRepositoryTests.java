@@ -77,7 +77,7 @@ import static org.junit.Assert.*;
 @ConditionalIgnore(condition = RunningContinuousIntegrationCondition.class)
 @TestPropertySource(properties = {
     "cas.acceptableUsagePolicy.mongo.host=localhost",
-    "cas.acceptableUsagePolicy.mongo.port=8081",
+    "cas.acceptableUsagePolicy.mongo.port=27017",
     "cas.acceptableUsagePolicy.mongo.dropCollection=true",
     "cas.acceptableUsagePolicy.mongo.collection=acceptable-usage-policy",
     "cas.acceptableUsagePolicy.aupAttributeName=accepted",
