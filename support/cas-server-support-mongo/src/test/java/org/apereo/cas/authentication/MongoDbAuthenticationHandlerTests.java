@@ -71,8 +71,6 @@ import static org.junit.Assert.*;
     "cas.authn.mongo.host=localhost",
     "cas.authn.mongo.port=27017",
     "cas.authn.mongo.attributes=loc,state",
-    "cas.authn.mongo.usernameAttribute=username",
-    "cas.authn.mongo.passwordAttribute=password",
     "cas.authn.pac4j.typedIdUsed=false"
     })
 public class MongoDbAuthenticationHandlerTests {

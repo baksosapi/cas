@@ -45,6 +45,8 @@ import static org.junit.Assert.*;
     "cas.audit.mongo.port=27017",
     "cas.audit.mongo.dropCollection=true",
     "cas.audit.mongo.asynchronous=false",
+    "cas.audit.mongo.username=root",
+    "cas.audit.mongo.password=secret",
     "cas.audit.mongo.databaseName=audit"
     })
 @Category(MongoDbCategory.class)

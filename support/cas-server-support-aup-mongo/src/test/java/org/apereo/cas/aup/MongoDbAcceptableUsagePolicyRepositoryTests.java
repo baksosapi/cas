@@ -80,8 +80,10 @@ import static org.junit.Assert.*;
     "cas.acceptableUsagePolicy.mongo.port=27017",
     "cas.acceptableUsagePolicy.mongo.dropCollection=true",
     "cas.acceptableUsagePolicy.mongo.collection=acceptable-usage-policy",
-    "cas.acceptableUsagePolicy.aupAttributeName=accepted",
-    "cas.acceptableUsagePolicy.mongo.databaseName=acceptableUsagePolicy"
+    "cas.acceptableUsagePolicy.mongo.username=root",
+    "cas.acceptableUsagePolicy.mongo.password=secret",
+    "cas.acceptableUsagePolicy.mongo.databaseName=acceptableUsagePolicy",
+    "cas.acceptableUsagePolicy.aupAttributeName=accepted"
     }
 )
 public class MongoDbAcceptableUsagePolicyRepositoryTests {
